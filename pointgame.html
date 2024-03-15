@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>pointgame</title>
+<script src="find.js"></script>
+<script src="hint.js">
+</script>
+<script src="winner.js">  
+</script>
+<script src="grade1.js">
+</script>
+<script>
+    function query() {
+        let ret = confirm("곱셈으로 이동합니다."); //링크를 통해 구구단 게임으로 이동; 이벤트 디폴트 행동 취소
+        return ret;
+    }
+
+</script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<h3><p class = "color">게임 1: 덧셈과 곱셈 중에 선택하세요!</p></h3>
+<hr>
+<form>
+    <input type="radio" name="cal" value="덧셈" checked> 덧셈
+    <input type="radio" name="cal" value="곱셈"><a href="gugudan.html" onclick="return query() //이벤트함수2"> 곱셈</a> 
+    <input type="button" value="선택" onclick="findChecked()">
+</form>
+<hr>
+<h3><p class = "color">게임 2: 다음 글에서 우리나라 도시는 몇 개일까요?
+    <button onclick="hint()">힌트</button></p>
+</h3>
+<script>
+    $('.color').css('color', 'Pink') //보너스 문제1: jQurey 사용
+</script>
+지금 저는 <span>서울</span>에 거주하고 있습니다. 저는 여름방학에 <span>부산</span>과 <span>전주</span>로 여행을 갈 계획이예요.
+<hr>
+<h3>현재 포인트 점수 1등(100점 기준)</h3>
+<script src="winner2.js">
+</script>
+<hr>
+<h3>포인트 등급</h3>
+<script src="grade2.js">
+</script>
+<hr>
+<h3> 그림의 위치는?</h3>
+<img src= "img/최고심2.jpg" onmousemove="where(event)"><br><br>
+<div id="loc" style="background-color: blueviolet; width: 200px; height:150px;"></div>
+<script src="mouse.js">
+</script>
+</body>
+</html>

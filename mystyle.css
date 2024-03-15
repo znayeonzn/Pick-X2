@@ -1,0 +1,161 @@
+/*mystyle.css*/
+	.en {
+		background: lavenderblush;
+		margin-left : 1135px;
+		padding: 7px 8px;
+		width: 300px;
+		text-align: center;
+		font-family: 나눔스퀘어_ac;
+		font-weight: 600;
+	}
+	#join ul li {
+		display : inline-block;
+		list-style-type: none;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: right;
+	}
+
+	.menu ul > li {
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.menu ul img {
+		width: 280px;
+		height: 250px;
+		padding : 10px;
+		padding-top: 20px;
+		}
+
+	.menu ul img:hover {
+		box-shadow: 5px 5px 19px -5px darkseagreen;
+	}
+	.cat {
+		width:280px;
+		padding-left: 20px;
+		font-family: 나눔스퀘어;
+		line-height: 27px;
+	}
+	.cat span {
+		background-color: palegoldenrod;
+		font-family: 나눔스퀘어;
+		font-weight: 900;
+		font-size: 25px;
+	}
+	.menu ul {
+		float:left;
+	}
+
+	table {
+		border: 5px solid mistyrose;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: a타이틀고딕3;
+	}
+	#logo {
+		text-indent: 1.2em; 
+		font-family: a블랙M; 
+		font-size: 47px;
+		color: lightblue;
+		text-shadow: 2px 2px 0px darksalmon;
+	}
+
+	#week {
+		font-family: a타이틀고딕4; 
+		font-size: 37px; 
+		padding-top: 30px;
+		padding-bottom: 30px; 
+		color: moccasin;
+        text-shadow: 3px 3px 0px palevioletred;
+	}
+
+	#recommand {
+		font-family: a타이틀고딕4; 
+		font-size: 37px; 
+		padding: 30px;
+		padding-bottom: 5px;
+		text-align: center;
+		color: moccasin;
+		text-shadow: 3px 3px 0px darkseagreen;
+	}
+	thead th {
+		height: 40px;
+		padding: 20px;
+		font-size: 26px;
+	}
+
+	td > img {
+		width: 380px;
+		height: 240px;
+		padding: 40px;
+		text-align: center;
+	}
+	th > span {
+		background-color: Gold;
+		font-size: 24px;
+		line-height: 40px;
+	}
+	footer {
+		text-align: left;
+		padding: 20px;
+		font-family: 나눔스퀘어;
+	} 	
+	.en li a {
+		text-decoration: none;
+		color: black;
+	}
+	.en li a:hover {
+		color: palevioletred;
+	}
+	.en li:hover {
+		color: palevioletred;
+	}
+
+	.input {
+		font-family: 나눔스퀘어;
+		text-align: left;
+		padding: 20px 50px;
+		padding-top: 80px;
+	}
+	.input div {
+		margin: 90px 480px;
+		padding: 20px 50px;
+		width: 300px;
+		height: 600px;
+		background: lightyellow;
+		border: 3px solid chocolate;
+	}
+	.input h3 {
+		font-family: a타이틀고딕3;
+		padding-top: 40px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		font-size: 25px;
+		text-align: lef		
+	}
+
+	.register {
+		font-family: 나눔스퀘어;
+		text-align: left;
+		padding: 20px 50px;
+		padding-top: 100px;
+	}
+	.register h3 {
+		text-align: left; 
+		padding-bottom: 20px; 
+		font-family: a타이틀고딕3;
+		font-size: 25px;
+
+	}
+	.register div {
+		margin: 90px 480px;
+		padding: 20px 50px;
+		width: 400px;
+		height: 600px;
+		background: lightyellow;
+		border: 3px solid chocolate;
+	}
+
+	
